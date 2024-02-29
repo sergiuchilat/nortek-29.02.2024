@@ -44,11 +44,28 @@ header button{
     padding: 2em 6em;
 }
 
-section{
+section#services{
     display: flex;
     margin-top: 8em;
 }
 
-section div{
+section#services div{
     text-align: center;
 }
+
+section#portfolio h2{
+    text-align: center;
+    margin: 2em;
+}
+
+section#portfolio ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+section#portfolio ul li img{
+    border-radius: 20px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+
